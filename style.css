@@ -1,0 +1,44 @@
+.moviecontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.moviediv{
+    align-self: center;
+    flex: 40%;
+    height: 100%;
+    margin: 2%;
+    background-color: black;
+    opacity: 100%;
+}
+
+video{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    align-self: center;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    padding: 10px;
+    background-size: auto 100vh;
+    background-color: #FFFFFF;
+    background-image: url("https://lh3.googleusercontent.com/us2KEVwIlHu5dFywoG58AUHOnR3Fr9ELLckRZVntTGC1iOs_iCw5l9EkoYygZdfK9RHYE_9bdGsqBTVos-r5hQpWm8vVaSKx7FovkLuuB_zlj4humdX2HN4onS7MYVfgKFTE9I3Ucg=w2400");
+    background-size: cover;
+    color: #ffffff;
+    font-family: Times, Serif;
+    }
+
+@media (max-width: 800px) {
+    .moviecontainer {
+        flex-direction: column;
+    }
+}

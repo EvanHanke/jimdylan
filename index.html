@@ -1,14 +1,6 @@
 <style type="text/css">
 
-body{
-padding-top: 20px;
-padding-left: 30px;
-background-size: auto 100vh;
-background-color: #FFFFFF;
-background-image: url("https://lh3.googleusercontent.com/us2KEVwIlHu5dFywoG58AUHOnR3Fr9ELLckRZVntTGC1iOs_iCw5l9EkoYygZdfK9RHYE_9bdGsqBTVos-r5hQpWm8vVaSKx7FovkLuuB_zlj4humdX2HN4onS7MYVfgKFTE9I3Ucg=w2400");
-color: #ffffff;
-font-family: Times, Serif;
-}
+
   
 h1{
   font-size: 14px;
@@ -16,6 +8,8 @@ h1{
 </style>
 
 <head>
+  <link rel="stylesheet" href = "style.css">
+  <script src ="script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WY4T9L67SS"></script>
@@ -25,22 +19,39 @@ h1{
   gtag('js', new Date());
 
   gtag('config', 'G-WY4T9L67SS');
-</script>
+  </script>
   <meta name="description" 
-content="Jim Dylan, director. Inquire via email: inquires.jimdylan@gmail.com">
+  content="Jim Dylan, director. Inquire via email: inquires.jimdylan@gmail.com">
   <link rel="canonical" href="http://jimdylan.com" />
 </head>
 
 <body>
+    <title>
+    Jim Dylan, director.
+    </title>
+    <h1>
+    Jim Dylan<br>
+    Director<br>
+    Contact: inquires.jimdylan@gmail.com
+    </h1>
+    <br>
 
-<div>
-  <title>
-  Jim Dylan, director.
-  </title>
-  <h1>
-  Jim Dylan<br>
-  Director<br>
-  Email: inquires.jimdylan@gmail.com
-  </h1>
-</div>
+    <div class = "moviecontainer">
+      <div class = "moviediv">
+        <video type = "video/mov" controls>
+          <source src = "/Movies/A_small.mov">
+        </video>
+      </div>
+      <div class = "moviediv">
+        <video type = "video/mp4" controls>
+          <source src = "/Movies/B_small.mov">
+        </video>
+      </div>
+      <div class = "moviediv">
+        <video type = "video/mov" controls>
+          <source src = "/Movies/C_small.mov">
+        </video>
+      </div>
+    </div>
 </body>
+
